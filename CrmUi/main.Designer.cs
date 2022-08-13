@@ -76,6 +76,7 @@
             this.ProductAddToolStripMenuItem.Name = "ProductAddToolStripMenuItem";
             this.ProductAddToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ProductAddToolStripMenuItem.Text = "Добавить";
+            this.ProductAddToolStripMenuItem.Click += new System.EventHandler(this.ProductAddToolStripMenuItem_Click);
             // 
             // SellerToolStripMenuItem
             // 
@@ -91,6 +92,7 @@
             this.SellerAddToolStripMenuItem.Name = "SellerAddToolStripMenuItem";
             this.SellerAddToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.SellerAddToolStripMenuItem.Text = "Добавить";
+            this.SellerAddToolStripMenuItem.Click += new System.EventHandler(this.SellerAddToolStripMenuItem_Click);
             // 
             // CustomerToolStripMenuItem
             // 
@@ -104,7 +106,7 @@
             // CustomerAddToolStripMenuItem
             // 
             this.CustomerAddToolStripMenuItem.Name = "CustomerAddToolStripMenuItem";
-            this.CustomerAddToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.CustomerAddToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.CustomerAddToolStripMenuItem.Text = "Добавить";
             this.CustomerAddToolStripMenuItem.Click += new System.EventHandler(this.CustomerAddToolStripMenuItem_Click);
             // 
