@@ -13,7 +13,7 @@ namespace CrmUi
         }
         public ProductForm(Product product) : this()
         {
-            Product = product;
+            Product = product ?? new Product();
             textBox1.Text = Product.Name;
             numericUpDown1.Value = Product.Price;
             numericUpDown2.Value = Product.Count;
